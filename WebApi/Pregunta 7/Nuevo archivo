@@ -1,0 +1,5 @@
+a. Me confundi con el Server unas cuantas veces pero no fue para tanto.
+b. El autogenerado es mas sencillo porque al final simplemente es hacer un par de clicks, mientras que para el repository hay que hacer una capa intermedia 
+y clases.
+c. Arquitectura en capas, el web api esta separado de la biblioteca de clases. 
+d. Gemini para guiarnos y recordar lo aprendido en clase, la usamos en gran parte para crear los controladores y guiarnos con el clonar repos 
