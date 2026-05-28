@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BibliotecaClases/BibliotecaClases.csproj" />
+  <Project Path="WebApi/WebApi.csproj" />
+</Solution>
