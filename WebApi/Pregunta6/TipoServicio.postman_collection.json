@@ -1,0 +1,157 @@
+{
+  "info": {
+    "_postman_id": "8a7822f4-c2ad-48f5-a370-c9630648b490",
+    "name": "TipoServicio",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54272522",
+    "_collection_link": "https://go.postman.co/collection/54272522-8a7822f4-c2ad-48f5-a370-c9630648b490?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Mantenimiento General\",\r\n  \"precioBase\": 250.00\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5158/api/tiposervicio",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5158",
+          "path": [
+            "api",
+            "tiposervicio"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5158/api/tiposervicio",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5158",
+          "path": [
+            "api",
+            "tiposervicio"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Mantenimiento General Premium\",\r\n  \"precioBase\": 300.00\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5158/api/tiposervicio/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5158",
+          "path": [
+            "api",
+            "tiposervicio",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Mantenimiento de Rutina\",\r\n  \"precioBase\": 150.00\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5158/api/tiposervicio/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5158",
+          "path": [
+            "api",
+            "tiposervicio",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nombre\": \"Mantenimiento Final\",\r\n  \"precioBase\": 100.00\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5158/api/tiposervicio",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5158",
+          "path": [
+            "api",
+            "tiposervicio"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
