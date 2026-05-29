@@ -19,7 +19,7 @@ public partial class OrdenServicio
 
     public int TipoServicioId { get; set; }
 
-    public virtual TipoServicio TipoServicio { get; set; } = null!;
+    public virtual TipoServicio? TipoServicio { get; set; } = null!;
 
-    public virtual Vehiculo Vehiculo { get; set; } = null!;
+    public virtual Vehiculo? Vehiculo { get; set; } = null!;
 }
